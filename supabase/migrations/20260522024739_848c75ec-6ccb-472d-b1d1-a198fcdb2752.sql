@@ -1,0 +1,19 @@
+UPDATE public.tutoriais SET titulo='Passo a passo: preparar a terra para plantar',
+conteudo_simples=E'1. Escolha o terreno: prefira terra plana, sem muito acúmulo de água.\n\n2. Limpe a área: tire mato grosso, raízes e pedras grandes. Não queime — a queimada empobrece o solo.\n\n3. Afofar a terra: use enxada ou arado leve até uns 20 cm de profundidade. A terra precisa respirar.\n\n4. Cobertura morta: jogue folhas secas ou capim picado por cima. Isso segura a umidade e alimenta o solo.\n\n5. Adubo natural: se tiver, espalhe esterco curtido (de gado ou galinha) 15 dias antes de plantar.\n\n6. Espere uma chuva leve para a terra assentar. Pronto para receber a muda ou semente.'
+WHERE cultura='Mandioca';
+
+UPDATE public.tutoriais SET titulo='Passo a passo: plantar e cuidar do milho',
+conteudo_simples=E'1. Época certa: plante no começo das chuvas (geralmente novembro a janeiro em Moju).\n\n2. Sementes boas: escolha sementes cheias, sem furos. Deixe de molho 12h antes.\n\n3. Cova: abra covas rasas (3 a 5 cm). Espaço de 1 palmo entre sementes, 1 passo entre fileiras.\n\n4. Coloque 2 sementes por cova — se as duas brotarem, deixe a mais forte.\n\n5. Capina: tire o mato em volta nas primeiras 4 semanas. Mato rouba comida do milho.\n\n6. Adubação: 30 dias depois do plantio, coloque um punhado de esterco perto do pé.\n\n7. Colheita: quando a palha ficar seca e o grão duro (90 a 120 dias).'
+WHERE cultura='Milho';
+
+UPDATE public.tutoriais SET titulo='Passo a passo: o que fazer com terra encharcada',
+conteudo_simples=E'1. Identifique o problema: se a água demora mais de 1 dia para sumir depois da chuva, sua terra está encharcando.\n\n2. Faça valetas: cave pequenos canais (sulcos) ao redor do plantio para a água escoar.\n\n3. Levante canteiros: monte camas de terra 20-30 cm acima do nível do chão. A raiz fica seca.\n\n4. Plante em curva de nível: nunca em ladeira reta, isso piora a erosão.\n\n5. Escolha culturas que gostam de umidade: açaí, banana e taioba se dão bem.\n\n6. Evite: mandioca e milho em solo encharcado — apodrecem a raiz.\n\n7. Cobertura morta: ajuda a regular a umidade nos dois sentidos.'
+WHERE cultura='Geral';
+
+UPDATE public.tutoriais SET titulo='Passo a passo: plantar bananeira',
+conteudo_simples=E'1. Escolha a muda: prefira rebentos (filhotes) de bananeira adulta e sadia, com 50-80 cm de altura.\n\n2. Cova grande: abra cova de 40x40x40 cm. Bananeira gosta de espaço.\n\n3. Adubo no fundo: misture esterco curtido com a terra que voltará na cova.\n\n4. Plantio: coloque a muda em pé, cubra até o pescoço. Aperte bem a terra.\n\n5. Espaçamento: 3 passos entre uma bananeira e outra.\n\n6. Rega: nas 2 primeiras semanas, molhe a cada 2 dias se não chover.\n\n7. Desbaste: deixe só 3 plantas por touceira (a mãe, uma filha e uma neta).\n\n8. Colheita: cacho fica pronto entre 9 e 12 meses. Corte quando os frutos estiverem cheios e ainda verdes.'
+WHERE cultura='Banana';
+
+UPDATE public.tutoriais SET titulo='Passo a passo: cuidar do açaizeiro',
+conteudo_simples=E'1. Local certo: açaí gosta de terra úmida, perto de igarapé ou em várzea.\n\n2. Mudas: use sementes de açaí maduro. Deixe de molho 24h e plante em saquinhos com terra preta.\n\n3. Transplante: quando a muda tiver 30 cm (4-6 meses), leve para o local definitivo.\n\n4. Cova: 30x30x30 cm com esterco bem curtido no fundo.\n\n5. Espaçamento: 5 metros entre cada touceira — açaizeiro cresce em grupo.\n\n6. Manejo da touceira: deixe no máximo 4 estipes (troncos) por touceira. Corte os mais fracos.\n\n7. Limpeza: capine ao redor 2x por ano. Não deixe cipó subir no tronco.\n\n8. Primeira colheita: começa entre 3 e 4 anos após o plantio. Colha sempre com cuidado para não ferir o palmito.'
+WHERE cultura='Açaí';
